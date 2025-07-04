@@ -1,0 +1,133 @@
+/* تعميم الخطوط واتجاه الصفحة */
+body {
+    font-family: "Tajawal", sans-serif;
+    background-color: #f9f9f9;
+    color: #222;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* قسم رأس الصفحة */
+.hero {
+    padding: 60px 20px;
+    background-color: #1f2937;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #10b981;
+    color: white;
+    padding: 15px 30px;
+    margin-bottom: 20px;
+    border: none;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #059669;
+}
+
+/* صورة الكتاب */
+
+.book-image {
+    padding: 40px 20px;
+}
+
+.book-image img {
+    max-width: 250px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* قسم المميزات */ 
+
+.features {
+  background-color: #f9fafb;
+  padding: 60px 20px;
+}
+
+.feature-box {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+  padding: 30px 25px;
+  margin: 0 auto 30px auto;  /* يجعل البوكس في المنتصف */
+  text-align: right;
+  max-width: 800px;  /* يحد من عرض البوكس */
+  width: 100%;
+}
+
+
+.feature-box h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #1f2937;
+}
+
+.feature-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.feature-box ul li {
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: #374151;
+  line-height: 1.6;
+}
+
+
+
+
+/* القسم الأخير */
+
+.cta {
+    padding: 40px 20px;
+    
+    background-color: #1f2937;
+    color: white;
+}
+
+/* قسم التعليقات */
+
+.testimonials {
+    background-color: #f3f4f6;
+    padding: 60px 20px;
+}
+
+.testimonials h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+    color: #111827;
+}
+
+.testimonial-card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    text-align: right;
+
+}
+
+.testimonial-card .name {
+    font-weight: bold;
+    color: #374151;
+    margin-bottom: 10px;
+}
